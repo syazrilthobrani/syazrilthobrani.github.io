@@ -1,3 +1,9 @@
+html {
+  background-color: linen ;  
+/* chosen background colour linen to maintain clean soft look */
+}
+
+
 h1 {
   text-align: center;
   /* aligning heading to the center */
@@ -15,4 +21,26 @@ h1 {
   /* chosen courier new as well to maintain consistent look */
   font-size: 1.5em;
   /* set subheading size to 1.5em; feels appropriate */
+}
+
+h2 {
+  font-family: 'courier new', monospace;
+  /* chosen courier new to maintain consistent look again */
+  font-size: 1.2em;
+  /* set heading size to 1.2em; feels appropriate */
+  
+}
+
+p {
+  font-family: 'courier new', monospace;
+  /* chosen courier new to maintain consistent look again */
+  font-size: 1em;
+  /* set paragraph size to 1em; feels appropriate */
+}
+
+ul {
+  font-family: 'courier new', monospace;
+  /* chosen courier new to maintain consistent look again */
+  font-size: 1em;
+  /* set list size to 1em; feels appropriate */
 }
