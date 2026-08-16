@@ -5,6 +5,9 @@ html {
 
 
 h1 {
+
+  /* styling for main heading */
+  
   text-align: center;
   /* aligning heading to the center */
   font-family: 'courier new', monospace;
@@ -15,6 +18,9 @@ h1 {
 }
 
 .subheading {
+
+  /* styling for class subheading */
+
   text-align: center;
   /* aligning subheading to the center */
   font-family: 'courier new', monospace;
@@ -24,6 +30,9 @@ h1 {
 }
 
 h2 {
+
+/* styling for questions */
+
   font-family: 'courier new', monospace;
   /* chosen courier new to maintain consistent look again */
   font-size: 1.2em;
@@ -31,16 +40,53 @@ h2 {
   
 }
 
+ol {;
+
+  /* styling for ordered list */
+
+  font-family: 'courier new', monospace;
+  /* chosen courier new to maintain consistent look again */
+  font-size: 1em;
+  /* set list size to 1em; feels appropriate */
+}
+
 p {
+
+  /* styling for answers */
+
   font-family: 'courier new', monospace;
   /* chosen courier new to maintain consistent look again */
   font-size: 1em;
   /* set paragraph size to 1em; feels appropriate */
 }
 
-ul {
-  font-family: 'courier new', monospace;
-  /* chosen courier new to maintain consistent look again */
-  font-size: 1em;
-  /* set list size to 1em; feels appropriate */
+.qna {
+
+  /* used the .class syntax for qna to style them */
+  padding: 1.5em;
+  /* padding I learned adds space inside box so text doesn't collide with borders */
+  border: 1px solid grey;
+  /* added border to make box visible */
+  border-radius: 8px;
+  /* rounded the corners of the box */
+  text-align: center;
+  /* aligned text to center */
+  max-width: 800px;
+  /* max-width to squeeze the box in to the right size fitting the text */
+
 }
+
+.qna ol {
+  text-align: left;
+
+  /* when text was centered, the list was centered as well so I moved it to the left to align with its numbers to look neater */
+}
+
+
+
+.qna {
+  margin: 0 auto 3em auto;
+  /* so that the boxes stopped touching and had spacing between them */
+}
+
+
