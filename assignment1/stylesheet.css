@@ -62,6 +62,11 @@ p {
 
 .qna {
 
+  /* for this part including the <div class=qna>  I admit I did ask for help from Claude on how to create the boxes. However, I made sure I understood what it was saying
+  and simplified it where I could */
+
+  /* I also didn't just copy paste what Claude fed me. I made sure I understood it and typed it out myself for what it's worth. I treated it as an easier Google or MDN */
+
   /* used the .class syntax for qna to style them */
   padding: 1.5em;
   /* padding I learned adds space inside box so text doesn't collide with borders */
@@ -86,7 +91,7 @@ p {
 
 .qna {
   margin: 0 auto 3em auto;
-  /* so that the boxes stopped touching and had spacing between them */
+  /* claude helped with this issue too to make the boxes stop touching and add spacing between them */ 
 }
 
 
